@@ -7,7 +7,7 @@ from skimage.feature import hog
 from PIL import Image
 from skimage.io import imread
  
-model=pickle.load(open("model(1).pkl","rb"))
+model=pickle.load(open("model.pkl","rb"))
 st.header(" Face Recognition on LFW Dataset")
 
 file= st.file_uploader("Upload Image here")
